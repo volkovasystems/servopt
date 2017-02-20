@@ -1,0 +1,65 @@
+{
+	"database": {
+		"session": {
+			"host": "127.0.0.1",
+			"port": 10001,
+			"poolSize": 10,
+			"keepAlive": 500
+		}
+	},
+
+	"server": {
+		"protocol": "http",
+		"domain": "localhost",
+		"host": "127.0.0.1",
+		"port": 8000,
+
+		"body": {
+			"parser": {
+				"limit": "50mb"
+			}
+		},
+
+		"compression": {
+			"level": 9
+		},
+
+		"session": {
+			"proxy": false,
+			"expire": 216000,
+
+			"store": {
+				"url": "mongodb://127.0.0.1:10001/session",
+				"ttl": 86400
+			},
+			"engine": "mongo-store",
+
+			"cookie": {
+				"secure": false,
+				"age": 86400
+			}
+		}
+	},
+
+	"static": {
+		"path": {
+			"/": {
+				"clientPath": "client",
+				"index": "index.html"
+			},
+			"/view": {
+				"clientPath": "client",
+				"view": "home",
+				"index": "index.html"
+			}
+		}
+	},
+
+	"client": {
+		"default": {
+			"redirect": {
+				"path": "/view/status/page"
+			}
+		}
+	}
+}

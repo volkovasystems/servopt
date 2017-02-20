@@ -1,0 +1,30 @@
+{
+  "name": "servopt",
+  "version": "0.0.0",
+  "description": "Server based option configuration.",
+  "main": "servopt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/servopt.git"
+  },
+  "keywords": [
+    "server",
+    "option",
+    "configuration",
+    "servopt"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/servopt/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/servopt#readme",
+  "dependencies": {
+    "raze": "^0.19.0",
+    "redupe": "^0.1.0",
+    "truu": "^0.12.0"
+  }
+}

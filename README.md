@@ -1,2 +1,2 @@
 # servopt
-Server based option configuration
+Server based option configuration.
