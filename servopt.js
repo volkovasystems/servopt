@@ -34,6 +34,9 @@
 			"file": "servopt.js",
 			"module": "servopt",
 			"author": "Richeve S. Bebedor",
+			"contributors": [
+				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
+			],
 			"eMail": "richeve.bebedor@gmail.com",
 			"repository": "https://github.com/volkovasystems/servopt.git",``
 			"test": "servopt-test.js",
