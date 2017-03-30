@@ -1,6 +1,6 @@
 {
   "name": "servopt",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Server based option configuration.",
   "main": "servopt.js",
   "scripts": {
@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/volkovasystems/servopt#readme",
   "dependencies": {
-    "raze": "^0.24.0",
-    "redupe": "^0.3.0",
-    "truu": "^0.22.0"
+    "raze": "^0.25.0",
+    "redupe": "^0.4.0",
+    "truu": "^0.23.0"
   }
 }
