@@ -1,4 +1,6 @@
-
+const assert = require( "assert" );
 const servopt = require( "./servopt.js" );
 
-console.log( require( "util" ).inspect( servopt( { "production": { "server": { "protocol": "https" } } } ), { "showHidden": true, "depth": Infinity } ) );
+assert.ok( servopt( { "production": { "server": { "protocol": "https" } } } ), { "showHidden": true, "depth": Infinity } );
+
+console.log( "ok" );
